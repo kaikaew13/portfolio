@@ -5,18 +5,58 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.heading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+.sub-heading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.paragraph {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 400;
+}
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+.text-gradient {
+  background: linear-gradient(84.92deg, #93d6e4 26%, #519de3 45.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+.bg-gradient {
+  background: linear-gradient(180deg, #212529 0%, #030301 56.77%);
+}
+
+.container {
+  background: rgba(33, 37, 41, 0.75);
+  border-radius: 10px;
+}
+
+.orange__gradient {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(252, 149, 8, 0.44) 0%,
+    rgba(254, 104, 8, 0) 100%
+  );
 }

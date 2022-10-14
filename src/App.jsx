@@ -1,13 +1,7 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import './App.css';
-
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className='App'>
-      <h1 className=' bg-blue-400'>hello</h1>
+      <h1 className=' text-gradient font-poppins text-[46px]'>hello</h1>
     </div>
   );
 }

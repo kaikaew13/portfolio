@@ -7,6 +7,9 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins', 'san-serif'],
       },
+      colors: {
+        navbar: '#212529',
+      },
     },
     screens: {
       xs: '480px',
