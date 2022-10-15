@@ -8,7 +8,8 @@ module.exports = {
         poppins: ['Poppins', 'san-serif'],
       },
       colors: {
-        navbar: '#212529',
+        primary: '#212529',
+        secondary: '#FFFFFF',
       },
     },
     screens: {

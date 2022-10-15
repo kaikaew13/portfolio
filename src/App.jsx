@@ -9,11 +9,17 @@ import Projects from './components/Projects';
 function App() {
   return (
     <div className='App h-full w-full bg-gradient'>
-      <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Footer />
+      <div className=' w-full overflow-hidden justify-center'>
+        <Navbar />
+      </div>
+      <div className='w-full overflow-hidden justify-center'>
+        <Hero />
+      </div>
+      <div className='w-full justify-center'>
+        <About />
+        <Projects />
+        <Footer />
+      </div>
     </div>
   );
 }
