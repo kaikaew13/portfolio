@@ -19,13 +19,13 @@ const Hero = () => {
       <div className=' z-10 relative lg:mx-[16.5rem] ss:mx-[10rem] mx-[2rem] py-[13%]'>
         <h2
           className=' font-poppins font-bold text-[48px] 
-        leading-[72px] text-secondary min-w-[228px] 
+        leading-[72px] text-secondary min-w-[228px]
         ss:text-start text-center'>
           Hello, I'm
         </h2>
         <h1
-          className=' font-poppins font-bold text-[76px] 
-        leading-[114px] text-gradient uppercase min-w-[371px]
+          className=' font-poppins font-bold ss:text-[76px] text-[65px] 
+        leading-[114px] text-gradient uppercase ss:min-w-[371px] w-fit ss:mx-0 mx-auto
         ss:text-start text-center'>
           Mahnun.
         </h1>
