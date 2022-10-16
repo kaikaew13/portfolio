@@ -10,6 +10,7 @@ import mongo from './mongologo.png';
 import node from './nodelogo.png';
 import react from './reactlogo.webp';
 import sidebar from './sidebar_white.png';
+import blue_efx from './blue_efx.png';
 
 export {
   cpp,
@@ -24,4 +25,5 @@ export {
   node,
   react,
   sidebar,
+  blue_efx,
 };
