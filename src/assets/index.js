@@ -9,9 +9,16 @@ import linkedin_white from './linkedin_white.png';
 import mongo from './mongologo.png';
 import node from './nodelogo.png';
 import react from './reactlogo.webp';
+import python from './pythonlogo.png';
+import tkinter from './tkinterlogo.png';
+import colly from './colly.png';
+import postgres from './postgres.png';
 import sidebar from './sidebar_white.png';
 import blue_efx from './blue_efx.png';
 import kitsuio from './kitsuio.png';
+import p_engine from './p_engine.png';
+import manganato from './manganato.png';
+import movie from './movie.png';
 
 export {
   cpp,
@@ -25,7 +32,14 @@ export {
   mongo,
   node,
   react,
+  python,
+  tkinter,
+  colly,
+  postgres,
   sidebar,
   blue_efx,
   kitsuio,
+  p_engine,
+  manganato,
+  movie,
 };
