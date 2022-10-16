@@ -8,7 +8,7 @@ const Projects = () => {
     <section className=' w-full relative overflow-hidden'>
       <div
         className=' orange-gradient w-[1350px] h-[1350px]
-      absolute z-0 md:-left-[55%] sm:-left-[80%] xs:-left-[100%] top-64'></div>
+      absolute z-[5] md:-left-[55%] sm:-left-[80%] xs:-left-[100%] top-64'></div>
       <div className=' w-full relative z-10 pt-20'>
         <div
           className='text-gradient heading uppercase text-center 
@@ -46,7 +46,7 @@ const Projects = () => {
                 <img
                   src={kitsuio}
                   alt='Kitsu.io Clone'
-                  className=' max-w-[500px] rounded-[10px]'
+                  className=' max-w-[500px] h-auto w-full rounded-[10px]'
                 />
               </div>
             </div>
@@ -80,7 +80,7 @@ const Projects = () => {
                 <img
                   src={kitsuio}
                   alt='Kitsu.io Clone'
-                  className=' max-w-[500px] rounded-[10px]'
+                  className=' max-w-[500px] h-auto w-full rounded-[10px]'
                 />
               </div>
             </div>
@@ -114,7 +114,7 @@ const Projects = () => {
                 <img
                   src={kitsuio}
                   alt='Kitsu.io Clone'
-                  className=' max-w-[500px] rounded-[10px]'
+                  className=' max-w-[500px] h-auto w-full rounded-[10px]'
                 />
               </div>
             </div>

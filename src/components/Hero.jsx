@@ -7,12 +7,12 @@ const Hero = () => {
     <section id='home' className='w-full h-full'>
       <img
         src={hero_bg}
-        alt='background_image'
+        alt='background_hero'
         className=' absolute w-full z-0 sm:block hidden'
       />
       <img
         src={hero_bg_phone}
-        alt='background_image'
+        alt='background_hero'
         className=' absolute w-full z-0 sm:hidden block'
       />
 
