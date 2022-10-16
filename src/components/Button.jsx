@@ -1,13 +1,15 @@
 import React from 'react';
 
-const Button = () => {
+const Button = ({ link }) => {
   return (
-    <button
-      type='button'
-      className=' paragraph text-secondary rounded-[10px] 
-      h-[40px] w-[116px] border border-secondary'>
-      Learn More
-    </button>
+    <a href={link} target='_blank' rel='noopener noreferrer'>
+      <button
+        type='button'
+        className=' paragraph text-secondary rounded-[10px] 
+      h-[40px] w-[116px] border border-secondary text-center py-auto'>
+        Learn More
+      </button>
+    </a>
   );
 };
 

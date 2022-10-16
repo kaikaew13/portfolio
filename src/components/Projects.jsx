@@ -2,6 +2,7 @@ import React from 'react';
 
 import Button from './Button';
 import { react, node, mongo, express, kitsuio } from '../assets';
+import { projects } from '../constants';
 
 const Projects = () => {
   return (
@@ -17,7 +18,42 @@ const Projects = () => {
         </div>
 
         <ul className=' flex flex-col items-center'>
-          <li className=' mb-14 md:-ml-[8rem]'>
+          {projects.map((project, index) => (
+            <li
+              key={project.id}
+              className={` mb-14 ${
+                index % 2 === 0 ? 'md:-ml-[8rem]' : 'md:ml-[8rem]'
+              }`}>
+              <div className=' p-container p-6 flex md:flex-row flex-col-reverse items-center mx-3'>
+                <div className=' md:mr-4 mr-0 max-w-[400px]'>
+                  <h2 className=' sub-heading text-secondary mb-3'>
+                    {project.title}
+                  </h2>
+                  <p className=' paragraph text-secondary_d mb-3'>
+                    {project.desc}
+                  </p>
+                  <div className=' flex justify-start flex-wrap mb-6 '>
+                    {project.techStacks.map((tech, index) => (
+                      <img
+                        src={tech}
+                        alt={`tech${index}`}
+                        className=' max-h-[40px] mr-2'
+                      />
+                    ))}
+                  </div>
+                  <Button link={project.link} />
+                </div>
+                <div className=' md:mb-0 mb-6'>
+                  <img
+                    src={project.poster}
+                    alt='Kitsu.io Clone'
+                    className=' max-w-[500px] h-auto w-full rounded-[10px]'
+                  />
+                </div>
+              </div>
+            </li>
+          ))}
+          {/* <li className=' mb-14 md:-ml-[8rem]'>
             <div className=' p-container p-6 flex md:flex-row flex-col-reverse items-center mx-3'>
               <div className=' md:mr-4 mr-0 max-w-[400px]'>
                 <h2 className=' sub-heading text-secondary mb-3'>
@@ -118,7 +154,7 @@ const Projects = () => {
                 />
               </div>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>

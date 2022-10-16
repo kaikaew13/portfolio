@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { blue_efx } from '../assets';
+import { about } from '../constants';
 
 const About = () => {
   return (
@@ -25,11 +26,7 @@ const About = () => {
           About Me
         </div>
         <div className=' text-secondary paragraph mx-auto ss:max-w-[460px] max-w-[300px]  text-center'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id ex
-          non quam semper dictum. In libero massa, tempor quis urna et,
-          imperdiet ornare metus. Praesent vitae sagittis dui, at rhoncus
-          turpis. Vestibulum ac diam sit amet lorem tempor ultrices. Nam vel
-          tortor quis leo pharetra laoreet.
+          {about}
         </div>
       </div>
     </section>
