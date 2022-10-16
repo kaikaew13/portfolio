@@ -9,7 +9,7 @@ import Projects from './components/Projects';
 function App() {
   return (
     <div className='App h-full w-full bg-gradient m-0'>
-      <div className=' w-full overflow-hidden justify-center'>
+      <div id='home' className=' w-full overflow-hidden justify-center'>
         <Navbar />
       </div>
       <div className='w-full overflow-hidden justify-center mt-[62px]'>

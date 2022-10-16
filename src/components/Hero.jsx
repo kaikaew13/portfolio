@@ -4,7 +4,7 @@ import { hero_bg, hero_bg_phone } from '../assets';
 
 const Hero = () => {
   return (
-    <section id='home' className='w-full h-full'>
+    <section id='hero' className='w-full h-full'>
       <img
         src={hero_bg}
         alt='background_hero'

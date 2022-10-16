@@ -34,6 +34,7 @@ const Projects = () => {
                   <div className=' flex justify-start flex-wrap mb-6 '>
                     {project.techStacks.map((tech, index) => (
                       <img
+                        key={`tech${index}`}
                         src={tech}
                         alt={`tech${index}`}
                         className=' max-h-[40px] mr-2'

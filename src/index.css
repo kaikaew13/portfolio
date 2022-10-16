@@ -106,3 +106,17 @@ body {
     rgba(254, 104, 8, 0) 100%
   );
 }
+
+.sidebar {
+  box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+  animation-name: animateRight;
+  animation-duration: 0.4s;
+}
+@keyframes animateRight {
+  from {
+    right: -500px;
+  }
+  to {
+    right: 0;
+  }
+}
