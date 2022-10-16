@@ -59,12 +59,17 @@ body {
   background: linear-gradient(180deg, #212529 0%, #030301 56.77%);
 }
 
-.container {
-  background: rgba(33, 37, 41, 0.75);
+.p-container {
+  background: rgba(33, 37, 41, 0.5);
   border-radius: 10px;
+  max-width: 950px;
+  min-height: 475px;
+  border-width: 1px;
+  box-sizing: border-box;
+  border-color: #cccccc;
 }
 
-.orange__gradient {
+.orange-gradient {
   background: radial-gradient(
     50% 50% at 50% 50%,
     rgba(252, 149, 8, 0.44) 0%,

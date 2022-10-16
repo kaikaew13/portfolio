@@ -11,6 +11,7 @@ import node from './nodelogo.png';
 import react from './reactlogo.webp';
 import sidebar from './sidebar_white.png';
 import blue_efx from './blue_efx.png';
+import kitsuio from './kitsuio.png';
 
 export {
   cpp,
@@ -26,4 +27,5 @@ export {
   react,
   sidebar,
   blue_efx,
+  kitsuio,
 };
