@@ -6,7 +6,8 @@ const Button = ({ link }) => {
       <button
         type='button'
         className=' paragraph text-secondary rounded-[10px] 
-      h-[40px] w-[116px] border border-secondary text-center py-auto'>
+      h-[40px] w-[116px] border border-secondary text-center py-auto
+      hover:bg-secondary transition duration-500 hover:text-primary'>
         Learn More
       </button>
     </a>

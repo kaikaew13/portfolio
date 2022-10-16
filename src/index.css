@@ -56,8 +56,37 @@ body {
   text-fill-color: transparent;
 }
 
+.to-gradient {
+  background: linear-gradient(
+    87.6deg,
+    #93d6e4 -1.61%,
+    #519de3 46.39%,
+    #93d6e4 94.38%
+  );
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: color 0.5s ease-in-out;
+  animation: anim 5s ease-in-out infinite;
+}
+.to-gradient:hover {
+  color: transparent;
+}
+
+@keyframes anim {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
 .bg-gradient {
-  background: linear-gradient(180deg, #212529 0%, #030301 56.77%);
+  background: linear-gradient(180deg, #212529 0%, #030301 100%);
 }
 
 .p-container {

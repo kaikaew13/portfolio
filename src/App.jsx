@@ -12,7 +12,7 @@ function App() {
       <div className=' w-full overflow-hidden justify-center'>
         <Navbar />
       </div>
-      <div className='w-full overflow-hidden justify-center'>
+      <div className='w-full overflow-hidden justify-center mt-[62px]'>
         <Hero />
       </div>
       <div className='w-full justify-center xs:my-[750px] ss:my-[1000px] sm:my-[5rem] md:my-[10rem] lg:my-[15rem] my-[30rem]'>

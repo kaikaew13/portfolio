@@ -13,6 +13,8 @@ import {
   p_engine,
   manganato,
   movie,
+  github_white,
+  linkedin_white,
 } from '../assets';
 
 export const navLinks = [
@@ -22,7 +24,7 @@ export const navLinks = [
   },
   {
     id: 'projects',
-    title: 'projects',
+    title: 'Projects',
   },
 ];
 
@@ -94,5 +96,18 @@ export const projects = [
     `,
     techStacks: [go, colly],
     link: 'https://github.com/kaikaew13/manganato-cli',
+  },
+];
+
+export const contacts = [
+  {
+    id: 'github',
+    icon: github_white,
+    link: 'https://github.com/kaikaew13',
+  },
+  {
+    id: 'linkedin',
+    icon: linkedin_white,
+    link: 'https://www.linkedin.com/in/mahnun-saratunti-7ba3bb24b',
   },
 ];

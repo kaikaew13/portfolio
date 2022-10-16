@@ -5,7 +5,7 @@ import { about } from '../constants';
 
 const About = () => {
   return (
-    <section className=' w-full relative overflow-hidden pb-[15rem]'>
+    <section id='about' className=' w-full relative overflow-hidden pb-[15rem]'>
       <img
         src={blue_efx}
         alt='background_image'

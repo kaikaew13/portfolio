@@ -1,12 +1,11 @@
 import React from 'react';
 
 import Button from './Button';
-import { react, node, mongo, express, kitsuio } from '../assets';
 import { projects } from '../constants';
 
 const Projects = () => {
   return (
-    <section className=' w-full relative overflow-hidden'>
+    <section id='projects' className=' w-full relative overflow-hidden'>
       <div
         className=' orange-gradient w-[1350px] h-[1350px]
       absolute z-[5] md:-left-[55%] sm:-left-[80%] xs:-left-[100%] top-64'></div>

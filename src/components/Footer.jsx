@@ -1,10 +1,11 @@
 import React from 'react';
 
-import { footer_bg, github_white, linkedin_white } from '../assets';
+import { footer_bg } from '../assets';
+import { contacts } from '../constants';
 
 const Footer = () => {
   return (
-    <section className=' w-full h-full relative'>
+    <section id='footer' className=' w-full h-full relative'>
       <img
         src={footer_bg}
         alt='footer_background'
@@ -17,16 +18,21 @@ const Footer = () => {
           © 2022 Mahnun Saratunti
         </p>
         <div className=' flex sm:mb-0 mb-6'>
-          <img
-            src={github_white}
-            alt='github'
-            className=' w-[40px] h-[40px] mr-10'
-          />
-          <img
-            src={linkedin_white}
-            alt='linkedin'
-            className=' w-[40px] h-[40px]'
-          />
+          {contacts.map((contact, index) => (
+            <a
+              key={contact.id}
+              href={contact.link}
+              target='_blank'
+              rel='noopener noreferrer'>
+              <img
+                src={contact.icon}
+                alt={contact.id}
+                className={`w-[40px] h-[40px] ${
+                  index === contacts.length - 1 ? '' : 'mr-10'
+                }`}
+              />
+            </a>
+          ))}
         </div>
       </div>
     </section>
