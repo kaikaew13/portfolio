@@ -13,12 +13,13 @@ import python from './pythonlogo.png';
 import tkinter from './tkinterlogo.png';
 import colly from './colly.png';
 import postgres from './postgres.png';
-import sidebar from './sidebar_white.png';
 import blue_efx from './blue_efx.png';
 import kitsuio from './kitsuio.png';
 import p_engine from './p_engine.png';
 import manganato from './manganato.png';
 import movie from './movie.png';
+import cancel_btn from './cancel_btn.png';
+import sidebar_btn from './sidebar_white.png';
 
 export {
   cpp,
@@ -36,10 +37,11 @@ export {
   tkinter,
   colly,
   postgres,
-  sidebar,
   blue_efx,
   kitsuio,
   p_engine,
   manganato,
   movie,
+  cancel_btn,
+  sidebar_btn,
 };

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { sidebar } from '../assets';
+import { sidebar_btn, cancel_btn } from '../assets';
 import { navLinks } from '../constants';
 
 const Navbar = () => {
@@ -39,7 +39,7 @@ const Navbar = () => {
         </ul>
         <div className=' md:hidden flex cursor-pointer'>
           <img
-            src={sidebar}
+            src={sidebar_btn}
             alt='sidebar'
             className=' h-[30px] '
             onClick={() => setOpenSidebar((prev) => !prev)}
@@ -50,13 +50,24 @@ const Navbar = () => {
         className={` ${
           openSidebar ? 'flex' : 'hidden'
         } flex-col fixed right-0 h-full w-[40%] bg-primary z-30 
-        items-center pt-40 sidebar`}>
-        <li>
-          <h6 className={`nav-text text-secondary mb-6`}>About</h6>
-        </li>
-        <li>
-          <h6 className={`nav-text text-secondary mb-6`}>Projects</h6>
-        </li>
+        items-center pt-10 sidebar`}>
+        <img
+          src={cancel_btn}
+          alt='cancel'
+          className=' w-[30px] mb-32 cursor-pointer'
+          onClick={() => setOpenSidebar((prev) => !prev)}
+        />
+        {navLinks.map((link) => (
+          <li key={link.id}>
+            <a href={`#${link.id}`}>
+              <h6
+                className={`nav-text text-secondary mb-6`}
+                onClick={() => setOpenSidebar((prev) => !prev)}>
+                {link.title}
+              </h6>
+            </a>
+          </li>
+        ))}
       </ul>
       <div
         className={` ${
