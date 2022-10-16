@@ -23,8 +23,14 @@ const Projects = () => {
               className={` mb-14 ${
                 index % 2 === 0 ? 'md:-ml-[8rem]' : 'md:ml-[8rem]'
               }`}>
-              <div className=' p-container p-6 flex md:flex-row flex-col-reverse items-center mx-3'>
-                <div className=' md:mr-4 mr-0 max-w-[400px]'>
+              <div
+                className={`p-container p-6 flex md:${
+                  index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'
+                } flex-col-reverse items-center mx-3`}>
+                <div
+                  className={`${
+                    index % 2 === 0 ? 'md:mr-10 ' : ''
+                  } mr-0 max-w-[400px]`}>
                   <h2 className=' sub-heading text-secondary mb-3'>
                     {project.title}
                   </h2>
@@ -43,7 +49,10 @@ const Projects = () => {
                   </div>
                   <Button link={project.link} />
                 </div>
-                <div className=' md:mb-0 mb-6'>
+                <div
+                  className={`md:mb-0 mb-6 ${
+                    index % 2 === 1 ? 'md:mr-10' : ''
+                  }`}>
                   <img
                     src={project.poster}
                     alt='Kitsu.io Clone'
