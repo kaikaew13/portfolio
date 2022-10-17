@@ -12,6 +12,19 @@ module.exports = {
         secondary: '#FFFFFF',
         secondary_d: '#CCCCCC',
       },
+      keyframes: {
+        animateFadeIn: {
+          '0%': {
+            opacity: 0,
+          },
+          '100%': {
+            opacity: 1,
+          },
+        },
+      },
+      animation: {
+        'fade-in': 'animateFadeIn 2s forwards',
+      },
     },
     screens: {
       xs: '480px',
@@ -22,5 +35,5 @@ module.exports = {
       xl: '1700px',
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-animation-delay')],
 };

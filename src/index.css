@@ -112,11 +112,27 @@ body {
   animation-name: animateRight;
   animation-duration: 0.4s;
 }
+
 @keyframes animateRight {
   from {
     right: -500px;
   }
   to {
     right: 0;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: animateFadeIn 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animateFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
