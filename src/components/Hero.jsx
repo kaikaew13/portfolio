@@ -8,12 +8,12 @@ const Hero = () => {
       <img
         src={hero_bg}
         alt='background_hero'
-        className=' absolute w-full z-0 sm:block hidden'
+        className=' absolute w-full z-0 sm:block hidden '
       />
       <img
         src={hero_bg_phone}
         alt='background_hero'
-        className=' absolute w-full z-0 sm:hidden block'
+        className=' absolute w-full z-0 sm:hidden block brightness-75'
       />
 
       <div
@@ -33,7 +33,7 @@ const Hero = () => {
         </h1>
         <h3
           className=' font-poppins font-bold ss:text-[32px] text-[28px] 
-        leading-[48px] text-secondary ss:w-[425px] ss:max-w-[425px]
+        leading-[48px] text-secondary shadow-sm ss:w-[425px] ss:max-w-[425px]
         ss:text-start text-center mx-0 opacity-0 animation-delay-1000 animate-fade-in'>
           A Software Engineering student at KMITL.
         </h3>
