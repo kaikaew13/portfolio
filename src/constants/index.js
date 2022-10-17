@@ -5,12 +5,14 @@ import {
   node,
   cpp,
   go,
+  c,
   colly,
   python,
   tkinter,
   postgres,
   kitsuio,
   p_engine,
+  ascii_c,
   manganato,
   movie,
   github_white,
@@ -42,12 +44,9 @@ export const projects = [
     title: 'Kitsuo.io Clone',
     poster: kitsuio,
     desc: `
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Quisque id ex non quam semper dictum. In libero massa,
-    tempor quis urna et, imperdiet ornare metus. Praesent vitae
-    sagittis dui, at rhoncus turpis. Vestibulum ac diam sit amet
-    lorem tempor ultrices. Nam vel tortor quis leo pharetra
-    laoreet.
+    A web app I made for practice using NodeJS and ReactJS, 
+    by making a clone of an anime website, Kitsu.io, 
+    my first ever project. Built using MERN stack.
     `,
     techStacks: [mongo, express, react, node],
     link: 'https://github.com/kaikaew13/my-kitsu-clone',
@@ -57,12 +56,13 @@ export const projects = [
     title: '3D Projection Engine',
     poster: p_engine,
     desc: `
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Quisque id ex non quam semper dictum. In libero massa,
-    tempor quis urna et, imperdiet ornare metus. Praesent vitae
-    sagittis dui, at rhoncus turpis. Vestibulum ac diam sit amet
-    lorem tempor ultrices. Nam vel tortor quis leo pharetra
-    laoreet.
+    This program uses self-implemented graphic library to
+    projects a 3D illusion into a 2D plane 
+    by drawing inclined or declined lines from coordinates 
+    or vertices in a certain angle from a perspective point. 
+    Group project for C-programming class made by 
+    Mahnun Saratunti (64011456) and 
+    Phobphoomin Siriboon (64011548).
     `,
     techStacks: [cpp],
     link: 'https://github.com/kaikaewkmitl/3d-projection-engine',
@@ -72,12 +72,11 @@ export const projects = [
     title: 'Movie Tracking App',
     poster: movie,
     desc: `
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Quisque id ex non quam semper dictum. In libero massa,
-    tempor quis urna et, imperdiet ornare metus. Praesent vitae
-    sagittis dui, at rhoncus turpis. Vestibulum ac diam sit amet
-    lorem tempor ultrices. Nam vel tortor quis leo pharetra
-    laoreet.
+    A GUI program built using tkinter. Allows user to 
+    conveniently keep track of the movies they've watched. 
+    KMITL's Introduction To Computers And Programming project 
+    by Mahnun Saratunti (64011456). All data related to 
+    movies are provided by The Movie Database (TMDb) API.
     `,
     techStacks: [python, tkinter, postgres],
     link: 'https://github.com/kaikaewkmitl/movie-tracker',
@@ -87,15 +86,25 @@ export const projects = [
     title: 'Manganato CLI',
     poster: manganato,
     desc: `
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Quisque id ex non quam semper dictum. In libero massa,
-    tempor quis urna et, imperdiet ornare metus. Praesent vitae
-    sagittis dui, at rhoncus turpis. Vestibulum ac diam sit amet
-    lorem tempor ultrices. Nam vel tortor quis leo pharetra
-    laoreet.
+      Manganato's manga downloader CUI and CLI written in Go. 
+      Utilize manganato-api, an unofficial Manganato web scraper 
+      written by me in Go using gocolly.
     `,
     techStacks: [go, colly],
     link: 'https://github.com/kaikaew13/manganato-cli',
+  },
+  {
+    id: 'project-4',
+    title: 'ASCII Chart Generator',
+    poster: ascii_c,
+    desc: `
+    A program to count ASCII characters from files 
+    provided then generates a chart displaying counts 
+    of each character. KMITL's C-programming individual 
+    project by Mahnun Saratunti (64011456).
+    `,
+    techStacks: [c],
+    link: 'https://github.com/kaikaewkmitl/ascii-chart',
   },
 ];
 

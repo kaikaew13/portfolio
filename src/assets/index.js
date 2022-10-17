@@ -3,6 +3,7 @@ import express from './expresslogo.png';
 import footer_bg from './footer_bg_group.png';
 import github_white from './github_white.png';
 import go from './gologo.png';
+import c from './clogo.png';
 import hero_bg from './hero_bg.png';
 import hero_bg_phone from './hero_bg_phone.png';
 import linkedin_white from './linkedin_white.png';
@@ -17,6 +18,7 @@ import blue_efx from './blue_efx.png';
 import kitsuio from './kitsuio.png';
 import p_engine from './p_engine.png';
 import manganato from './manganato.png';
+import ascii_c from './ascii_chart.png';
 import movie from './movie.png';
 import cancel_btn from './cancel_btn.png';
 import sidebar_btn from './sidebar_white.png';
@@ -27,6 +29,7 @@ export {
   footer_bg,
   github_white,
   go,
+  c,
   hero_bg,
   hero_bg_phone,
   linkedin_white,
@@ -40,6 +43,7 @@ export {
   blue_efx,
   kitsuio,
   p_engine,
+  ascii_c,
   manganato,
   movie,
   cancel_btn,

@@ -16,8 +16,8 @@ const Project = ({ project, index }) => {
         index % 2 === 0 ? 'md:-ml-[8rem]' : 'md:ml-[8rem]'
       } opacity-0 ${inView ? 'animate-fade-in' : ''} `}>
       <div
-        className={`p-container p-6 flex md:${
-          index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'
+        className={`p-container p-6 flex ${
+          index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
         } flex-col-reverse items-center mx-3`}>
         <div
           className={`${
