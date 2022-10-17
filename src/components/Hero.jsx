@@ -35,7 +35,7 @@ const Hero = () => {
           className=' font-poppins font-bold ss:text-[32px] text-[28px] 
         leading-[48px] text-secondary ss:w-[425px] ss:max-w-[425px]
         ss:text-start text-center mx-0 opacity-0 animation-delay-1000 animate-fade-in'>
-          A Software Engineering student at KMITL
+          A Software Engineering student at KMITL.
         </h3>
       </div>
     </section>
