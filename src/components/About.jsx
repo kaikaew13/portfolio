@@ -11,7 +11,10 @@ const About = () => {
   });
 
   return (
-    <section id='about' className=' w-full relative overflow-hidden pb-[15rem]'>
+    <section
+      ref={ref}
+      id='about'
+      className=' w-full relative overflow-hidden pb-[15rem]'>
       <img
         src={blue_efx}
         alt='background_image'
@@ -29,7 +32,6 @@ const About = () => {
 
       <div className=' w-full relative z-10 pt-20'>
         <div
-          ref={ref}
           className={`text-gradient heading uppercase text-center 
           mb-6  w-fit mx-auto opacity-0 ${inView ? ' animate-fade-in' : ''}`}>
           About Me
