@@ -18,6 +18,9 @@ const Projects = () => {
       <div
         className=' orange-gradient w-[1350px] h-[1350px]
       absolute z-[5] md:-left-[55%] sm:-left-[80%] xs:-left-[100%] top-64'></div>
+      <div
+        className=' orange-gradient w-[1350px] h-[1350px]
+      absolute z-[5] md:-right-[65%] sm:-right-[100%] xs:-right-[120%] bottom-36'></div>
       <div className=' w-full relative z-10 pt-20'>
         <div
           className={`text-gradient heading uppercase text-center 
