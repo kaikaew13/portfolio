@@ -21,7 +21,7 @@ const Hero = () => {
       ss:mx-[10rem] mx-[2rem] py-[13%]'>
         <h2
           className=' font-poppins font-bold text-[48px] 
-        leading-[72px] text-secondary 
+        leading-[72px] text-secondary ss:mx-0 mx-auto
         ss:text-start text-center w-[228px] opacity-0 animate-fade-in'>
           Hello, I'm
         </h2>
