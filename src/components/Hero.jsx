@@ -22,19 +22,19 @@ const Hero = () => {
         <h2
           className=' font-poppins font-bold text-[48px] 
         leading-[72px] text-secondary ss:mx-0 mx-auto
-        ss:text-start text-center w-[228px] opacity-0 animate-fade-in'>
+        ss:text-start text-center w-[228px] opacity-0 animation-delay-1000 animate-fade-in'>
           Hello, I'm
         </h2>
         <h1
           className=' font-poppins font-bold sm:text-[76px] text-[65px] 
         leading-[114px] text-gradient uppercase w-fit ss:mx-0 mx-auto
-        ss:text-start text-center opacity-0 animation-delay-500 animate-fade-in'>
+        ss:text-start text-center opacity-0 animation-delay-1500 animate-fade-in'>
           Mahnun.
         </h1>
         <h3
           className=' font-poppins font-bold ss:text-[32px] text-[28px] 
         leading-[48px] text-secondary shadow-sm ss:w-[425px] ss:max-w-[425px]
-        ss:text-start text-center mx-0 opacity-0 animation-delay-1000 animate-fade-in'>
+        ss:text-start text-center mx-0 opacity-0 animation-delay-2000 animate-fade-in'>
           A Software Engineering student at KMITL.
         </h3>
       </div>
