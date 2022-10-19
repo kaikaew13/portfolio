@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { hero_bg, hero_bg_phone } from '../assets';
+import Button from './Button';
 
 const Hero = () => {
   return (
@@ -32,10 +33,10 @@ const Hero = () => {
           Mahnun.
         </h1>
         <h3
-          className=' font-poppins font-bold ss:text-[32px] text-[28px] 
+          className=' font-poppins font-bold ss:text-[23px] text-[20px] mb-6
         leading-[48px] text-secondary shadow-sm ss:w-[425px] ss:max-w-[425px]
         ss:text-start text-center mx-0 opacity-0 animation-delay-2000 animate-fade-in'>
-          A Software Engineering student at KMITL.
+          A Software Engineering student looking for an internship.
         </h3>
       </div>
     </section>

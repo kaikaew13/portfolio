@@ -36,12 +36,16 @@ const About = () => {
           mb-6  w-fit mx-auto opacity-0 ${inView ? ' animate-fade-in' : ''}`}>
           About Me
         </div>
-        <div
-          className={`text-secondary paragraph mx-auto ss:max-w-[460px] 
-        max-w-[300px]  text-center opacity-0 animation-delay-500
-        ${inView ? ' animate-fade-in' : ''}`}>
-          {about}
-        </div>
+        {about.map((paragraph, index) => (
+          <div
+            key={index}
+            className={`text-secondary paragraph mx-auto ss:max-w-[460px] 
+         max-w-[300px]  text-center opacity-0 animation-delay-500
+         ${inView ? ' animate-fade-in' : ''}
+         ${index === about.length - 1 ? '' : 'mb-6'}`}>
+            {paragraph}
+          </div>
+        ))}
       </div>
     </section>
   );
