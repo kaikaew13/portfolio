@@ -24,18 +24,31 @@ const Navbar = () => {
           </h3>
         </a>
         <ul className=' md:flex hidden'>
-          {navLinks.map((link, index) => (
-            <li key={link.id}>
-              <a href={`#${link.id}`}>
-                <h6
-                  className={`nav-text text-secondary ${
-                    index === navLinks.length - 1 ? '' : 'mr-10'
-                  }`}>
-                  {link.title}
-                </h6>
-              </a>
-            </li>
-          ))}
+          {navLinks.map((link, index) =>
+            link.id !== 'resume' ? (
+              <li key={link.id}>
+                <a href={link.link}>
+                  <h6
+                    className={`nav-text text-secondary ${
+                      index === navLinks.length - 1 ? '' : 'mr-10'
+                    }`}>
+                    {link.title}
+                  </h6>
+                </a>
+              </li>
+            ) : (
+              <li key={link.id}>
+                <a href={link.link} target='_blank' rel='noopener noreferrer'>
+                  <h6
+                    className={`nav-text text-secondary ${
+                      index === navLinks.length - 1 ? '' : 'mr-10'
+                    }`}>
+                    {link.title}
+                  </h6>
+                </a>
+              </li>
+            )
+          )}
         </ul>
         <div className=' md:hidden flex cursor-pointer'>
           <img
@@ -57,17 +70,29 @@ const Navbar = () => {
           className=' w-[30px] mb-32 cursor-pointer'
           onClick={() => setOpenSidebar((prev) => !prev)}
         />
-        {navLinks.map((link) => (
-          <li key={link.id}>
-            <a href={`#${link.id}`}>
-              <h6
-                className={`nav-text text-secondary mb-6`}
-                onClick={() => setOpenSidebar((prev) => !prev)}>
-                {link.title}
-              </h6>
-            </a>
-          </li>
-        ))}
+        {navLinks.map((link) =>
+          link.id !== 'resume' ? (
+            <li key={link.id}>
+              <a href={link.link}>
+                <h6
+                  className={`nav-text text-secondary mb-6`}
+                  onClick={() => setOpenSidebar((prev) => !prev)}>
+                  {link.title}
+                </h6>
+              </a>
+            </li>
+          ) : (
+            <li key={link.id}>
+              <a href={link.link} target='_blank' rel='noopener noreferrer'>
+                <h6
+                  className={`nav-text text-secondary mb-6`}
+                  onClick={() => setOpenSidebar((prev) => !prev)}>
+                  {link.title}
+                </h6>
+              </a>
+            </li>
+          )
+        )}
       </ul>
       <div
         className={` ${

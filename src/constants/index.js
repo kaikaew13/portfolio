@@ -23,10 +23,17 @@ export const navLinks = [
   {
     id: 'about',
     title: 'About',
+    link: '#about',
   },
   {
     id: 'projects',
     title: 'Projects',
+    link: '#projects',
+  },
+  {
+    id: 'resume',
+    title: 'Resume',
+    link: 'https://github.com/kaikaew13/kaikaew13/blob/main/Mahnun_resume.pdf',
   },
 ];
 
