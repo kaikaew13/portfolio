@@ -4,6 +4,7 @@ import footer_bg from './footer_bg_group.png';
 import github_white from './github_white.png';
 import go from './gologo.png';
 import c from './clogo.png';
+import java from './javalogo.png';
 import hero_bg from './hero_bg.png';
 import hero_bg_phone from './hero_bg_phone.png';
 import linkedin_white from './linkedin_white.png';
@@ -20,6 +21,7 @@ import p_engine from './p_engine.png';
 import manganato from './manganato.png';
 import ascii_c from './ascii_chart.png';
 import movie from './movie.png';
+import makruk from './makrukthai.png';
 import cancel_btn from './cancel_btn.png';
 import sidebar_btn from './sidebar_white.png';
 
@@ -30,6 +32,7 @@ export {
   github_white,
   go,
   c,
+  java,
   hero_bg,
   hero_bg_phone,
   linkedin_white,
@@ -46,6 +49,7 @@ export {
   ascii_c,
   manganato,
   movie,
+  makruk,
   cancel_btn,
   sidebar_btn,
 };

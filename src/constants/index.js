@@ -6,6 +6,7 @@ import {
   cpp,
   go,
   c,
+  java,
   colly,
   python,
   tkinter,
@@ -15,6 +16,7 @@ import {
   ascii_c,
   manganato,
   movie,
+  makruk,
   github_white,
   linkedin_white,
 } from '../assets';
@@ -122,6 +124,20 @@ export const projects = [
     `,
     techStacks: [c],
     link: 'https://github.com/kaikaewkmitl/ascii-chart',
+  },
+  {
+    id: 'project-5',
+    title: 'MakRukThai',
+    poster: makruk,
+    desc: `
+    A GUI Makruk Thai multiplayer desktop game 
+    made using Java Swing. KMITL's Advanced Object-Oriented 
+    Programming group project by me and my friends. 
+    Utilize socket IO to provide multiplayer, players 
+    can connected via IP address and port number. 
+    `,
+    techStacks: [java],
+    link: 'https://github.com/natheetarn/MakRukThaiJava',
   },
 ];
 
