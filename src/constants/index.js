@@ -141,6 +141,70 @@ export const projects = [
   },
 ];
 
+export const experiences = [
+  {
+    id: 'experience-0',
+    title: 'Amity',
+    timeline: 'May - August 2023',
+    role: 'Front-end Developer Intern',
+    desc: `
+    A GUI Makruk Thai multiplayer desktop game 
+    made using Java Swing. KMITL's Advanced Object-Oriented 
+    Programming group project by me and my friends. 
+    Utilize socket IO to provide multiplayer, players 
+    can connected via IP address and port number. 
+    A GUI Makruk Thai multiplayer desktop game 
+    made using Java Swing. KMITL's Advanced Object-Oriented 
+    Programming group project by me and my friends. 
+    Utilize socket IO to provide multiplayer, players 
+    can connected via IP address and port number. 
+    `,
+    techStacks: [react, java],
+  },
+  {
+    id: 'experience-1',
+    title: 'Amity',
+    timeline: 'May - August 2023',
+    role: 'Front-end Developer Intern',
+    desc: `
+    A GUI Makruk Thai multiplayer desktop game 
+    made using Java Swing. KMITL's Advanced Object-Oriented 
+    Programming group project by me and my friends. 
+    Utilize socket IO to provide multiplayer, players 
+    can connected via IP address and port number. 
+    `,
+    techStacks: [react, java],
+  },
+  {
+    id: 'experience-2',
+    title: 'Amity',
+    timeline: 'May - August 2023',
+    role: 'Front-end Developer Intern',
+    desc: `
+    A GUI Makruk Thai multiplayer desktop game 
+    made using Java Swing. KMITL's Advanced Object-Oriented 
+    Programming group project by me and my friends. 
+    Utilize socket IO to provide multiplayer, players 
+    can connected via IP address and port number. 
+    `,
+    techStacks: [react, java],
+  },
+  {
+    id: 'experience-3',
+    title: 'Amity',
+    timeline: 'May - August 2023',
+    role: 'Front-end Developer Intern',
+    desc: `
+    A GUI Makruk Thai multiplayer desktop game 
+    made using Java Swing. KMITL's Advanced Object-Oriented 
+    Programming group project by me and my friends. 
+    Utilize socket IO to provide multiplayer, players 
+    can connected via IP address and port number. 
+    `,
+    techStacks: [react, java],
+  },
+];
+
 export const contacts = [
   {
     id: 'github',

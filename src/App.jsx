@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
+import Experiences from './components/Experiences';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       </div>
       <div className='w-full justify-center xs:my-[750px] ss:my-[1000px] sm:my-[5rem] md:my-[10rem] lg:my-[15rem] my-[30rem]'>
         <About />
+        <Experiences />
         <Projects />
         <Footer />
       </div>

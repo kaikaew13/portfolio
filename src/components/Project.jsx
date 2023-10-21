@@ -16,7 +16,7 @@ const Project = ({ project, index }) => {
         index % 2 === 0 ? 'md:-ml-[8rem]' : 'md:ml-[8rem]'
       } opacity-0 ${inView ? 'animate-fade-in' : ''} `}>
       <div
-        className={`p-container p-6 flex ${
+        className={`p-container min-h-[475px] p-6 flex ${
           index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
         } flex-col-reverse items-center mx-3`}>
         <div
@@ -41,7 +41,7 @@ const Project = ({ project, index }) => {
           <img
             src={project.poster}
             alt='Kitsu.io Clone'
-            className=' max-w-[500px] h-auto w-full rounded-[10px]'
+            className='max-w-[500px] h-auto w-full rounded-[10px]'
           />
         </div>
       </div>
