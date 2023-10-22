@@ -24,6 +24,9 @@ import movie from './movie.png';
 import makruk from './makrukthai.png';
 import cancel_btn from './cancel_btn.png';
 import sidebar_btn from './sidebar_white.png';
+import nextjs from './nextjs.png';
+import typescript from './typescript.png';
+import mui from './mui.png';
 
 export {
   cpp,
@@ -52,4 +55,7 @@ export {
   makruk,
   cancel_btn,
   sidebar_btn,
+  nextjs,
+  typescript,
+  mui,
 };

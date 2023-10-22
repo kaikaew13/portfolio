@@ -36,6 +36,7 @@ const Experience = ({ experience, index }) => {
             />
           ))}
         </div>
+        <Button link={experience.link} />
       </div>
     </li>
   );

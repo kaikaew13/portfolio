@@ -19,6 +19,9 @@ import {
   makruk,
   github_white,
   linkedin_white,
+  nextjs,
+  typescript,
+  mui,
 } from '../assets';
 
 export const navLinks = [
@@ -26,6 +29,11 @@ export const navLinks = [
     id: 'about',
     title: 'About',
     link: '#about',
+  },
+  {
+    id: 'experiences',
+    title: 'Experiences',
+    link: '#experiences',
   },
   {
     id: 'projects',
@@ -148,18 +156,15 @@ export const experiences = [
     timeline: 'May - August 2023',
     role: 'Front-end Developer Intern',
     desc: `
-    A GUI Makruk Thai multiplayer desktop game 
-    made using Java Swing. KMITL's Advanced Object-Oriented 
-    Programming group project by me and my friends. 
-    Utilize socket IO to provide multiplayer, players 
-    can connected via IP address and port number. 
-    A GUI Makruk Thai multiplayer desktop game 
-    made using Java Swing. KMITL's Advanced Object-Oriented 
-    Programming group project by me and my friends. 
-    Utilize socket IO to provide multiplayer, players 
-    can connected via IP address and port number. 
+    Developed the first phase of a new workforce management 
+    system for Royal Thai Police as a client. Worked on  
+    building new reusable components for the team, styling 
+    pages for several systems such as KPI evaluation, arrest warrant 
+    and more, as well as integrating front-end with 
+    back-end.
     `,
-    techStacks: [react, java],
+    techStacks: [nextjs, typescript, mui],
+    link: 'https://www.amity.co',
   },
   {
     id: 'experience-1',
@@ -174,6 +179,7 @@ export const experiences = [
     can connected via IP address and port number. 
     `,
     techStacks: [react, java],
+    link: 'https://www.amity.co',
   },
   {
     id: 'experience-2',
@@ -188,6 +194,7 @@ export const experiences = [
     can connected via IP address and port number. 
     `,
     techStacks: [react, java],
+    link: 'https://www.amity.co',
   },
   {
     id: 'experience-3',
@@ -202,6 +209,7 @@ export const experiences = [
     can connected via IP address and port number. 
     `,
     techStacks: [react, java],
+    link: 'https://www.amity.co',
   },
 ];
 
