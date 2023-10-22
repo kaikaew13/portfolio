@@ -14,7 +14,7 @@ const Experiences = () => {
     <section
       ref={ref}
       id='experiences'
-      className=' w-full relative overflow-hidden'>
+      className=' w-full relative overflow-hidden pb-[15rem]'>
       <div className=' w-full relative z-10 pt-20'>
         <div
           className={`text-gradient heading uppercase text-center 

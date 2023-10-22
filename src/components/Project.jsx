@@ -38,11 +38,13 @@ const Project = ({ project, index }) => {
           <Button link={project.link} />
         </div>
         <div className={`md:mb-0 mb-6 ${index % 2 === 1 ? 'md:mr-10' : ''}`}>
-          <img
-            src={project.poster}
-            alt='Kitsu.io Clone'
-            className='max-w-[500px] h-auto w-full rounded-[10px]'
-          />
+          <a href={project.link} target='_blank' rel='noopener noreferrer'>
+            <img
+              src={project.poster}
+              alt='Kitsu.io Clone'
+              className='max-w-[500px] h-auto w-full rounded-[10px]'
+            />
+          </a>
         </div>
       </div>
     </li>

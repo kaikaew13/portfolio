@@ -49,11 +49,11 @@ export const navLinks = [
 
 export const about = [
   `
-  Hi! I'm Mahnun Saratunti AKA Kaikaew. I'm a second year university 
+  Hi! I'm Mahnun Saratunti. I'm a third year university 
   student, currently studying for a Bachelor's degree in Software 
-  Engineering at KMITL (King Mongkut's Institute of Technology Ladkrabang). 
-  My interest and passion for programming started in my secondary school 
-  where I was shown a simple platforming game made using JavaScript by 
+  Engineering at University of Glasgow, UK. My interest and passion 
+  for programming started in my secondary school where I was 
+  shown a simple platforming game made using JavaScript by 
   my computer science teacher. 
   `,
   `
@@ -164,51 +164,6 @@ export const experiences = [
     back-end.
     `,
     techStacks: [nextjs, typescript, mui],
-    link: 'https://www.amity.co',
-  },
-  {
-    id: 'experience-1',
-    title: 'Amity',
-    timeline: 'May - August 2023',
-    role: 'Front-end Developer Intern',
-    desc: `
-    A GUI Makruk Thai multiplayer desktop game 
-    made using Java Swing. KMITL's Advanced Object-Oriented 
-    Programming group project by me and my friends. 
-    Utilize socket IO to provide multiplayer, players 
-    can connected via IP address and port number. 
-    `,
-    techStacks: [react, java],
-    link: 'https://www.amity.co',
-  },
-  {
-    id: 'experience-2',
-    title: 'Amity',
-    timeline: 'May - August 2023',
-    role: 'Front-end Developer Intern',
-    desc: `
-    A GUI Makruk Thai multiplayer desktop game 
-    made using Java Swing. KMITL's Advanced Object-Oriented 
-    Programming group project by me and my friends. 
-    Utilize socket IO to provide multiplayer, players 
-    can connected via IP address and port number. 
-    `,
-    techStacks: [react, java],
-    link: 'https://www.amity.co',
-  },
-  {
-    id: 'experience-3',
-    title: 'Amity',
-    timeline: 'May - August 2023',
-    role: 'Front-end Developer Intern',
-    desc: `
-    A GUI Makruk Thai multiplayer desktop game 
-    made using Java Swing. KMITL's Advanced Object-Oriented 
-    Programming group project by me and my friends. 
-    Utilize socket IO to provide multiplayer, players 
-    can connected via IP address and port number. 
-    `,
-    techStacks: [react, java],
     link: 'https://www.amity.co',
   },
 ];
